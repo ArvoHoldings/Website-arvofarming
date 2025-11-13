@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arvo Farms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center {
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .bottom-image {
+            display: block;
+            margin: 40px auto 20px auto;
+            width: 80px; /* Adjust as needed */
+            opacity: 0.9;
+            animation: sway 2s ease-in-out infinite;
+            transform-origin: bottom center;
+        }
+
+        @keyframes sway {
+            0%   { transform: rotate(0deg); }
+            25%  { transform: rotate(-3deg); }
+            50%  { transform: rotate(0deg); }
+            75%  { transform: rotate(3deg); }
+            100% { transform: rotate(0deg); }
+        }
+    </style>
+</head>
+
+<body>  
+    <h1 class="center">Arvo Farms</h1>
+    <br>
+    <p class="center">The company produces, markets, and distributes greenhouse-grown leafy greens.</p>        
+
+    <!-- Small image at the bottom swaying gently -->
+    <img class="bottom-image" src="/Images/plant logo.png" alt="Small Plant" title="Growing seedling">
+</body>
+</html>
